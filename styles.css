@@ -1,0 +1,175 @@
+/**{
+    border: 1px solid red;
+}*/
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.header, .footer{
+    display: flex;
+    background-color:#1f2937 ;
+    color: white;
+    height: 8vh;
+    flex-shrink: 0;
+}
+.header{
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    margin-left: 10vw;
+    align-items: center;
+}
+.links{
+    display: flex;
+    margin-right: 10vw;
+    justify-content: space-between;
+    gap: 10px;
+}
+.hero{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
+.hero_content{
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.hero_text{
+    height: auto;
+}
+.hero_inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero_header{
+    color: #f9faf7;
+    font-size: 48px;
+    font-weight: bolder;
+    margin:0 0 25px 0;
+}
+.hero_p{
+    margin: 0;
+    font-size: 18px;
+    color:#e5e7eb;
+}
+.sign_up{
+    color: white;
+    background-color: #3882f0;
+    padding: 5px;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.info_img{
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    border-color: #3882f6;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px;
+}
+.quote_box{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+.inside_box{
+    width: 50vw;
+}
+.quote{
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937;
+    font-size: 36px;
+    text-align: left;
+    margin: 0;
+}
+.sign{
+    font-weight: bold;
+    color: #1f2937;
+    font-size: 28px;
+    text-align: right;
+    margin: 0;
+}
+.call_to_action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.call_to_action_box{
+    display: flex;
+    background-color: #3882f0;
+    border-radius: 8px;
+    gap: 100px;
+    padding:25px 100px;
+}
+.action_button{
+    display: flex;
+    align-items: end;
+}
+.sign_up,#call{
+    border:1px solid white;
+    max-height: 30px;
+}
+.action_h{
+    color: white;
+    margin: 0;
+}
+.action_p{
+    color: white;
+    margin: 0;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Logo_img{
+    width: 50px;
+    height: 50px;
+}
+#Hero_img{
+    width: 600px;
+    height:300px;
+}
